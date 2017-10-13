@@ -44576,10 +44576,12 @@ $('#form-search').on('submit', function(e) {
     } ).resize();
 
     // For dropdown toggle
+	// Fck dropdown toggle
     var $typeDropdown = $('.container-menutab .container-one ul .toggle');
     if ($typeDropdown.length) {
         $typeDropdown.on('click', function(e) {
-            e.preventDefault();
+            //e.preventDefault();
+			e.stopPropagation();
 
             $(this).siblings().slideToggle('fast');
             $(this).children('a').toggleClass('opened');
