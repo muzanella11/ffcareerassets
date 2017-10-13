@@ -44577,16 +44577,16 @@ $('#form-search').on('submit', function(e) {
 
     // For dropdown toggle
 	// Fck dropdown toggle
-    var $typeDropdown = $('.container-menutab .container-one ul .toggle');
-    if ($typeDropdown.length) {
-        $typeDropdown.on('click', function(e) {
+    //var $typeDropdown = $('.container-menutab .container-one ul .toggle');
+    //if ($typeDropdown.length) {
+        //$typeDropdown.on('click', function(e) {
             //e.preventDefault();
-			e.stopPropagation();
+			//e.stopPropagation();
 
-            $(this).siblings().slideToggle('fast');
-            $(this).children('a').toggleClass('opened');
-        });
-    }
+            //$(this).siblings().slideToggle('fast');
+            //$(this).children('a').toggleClass('opened');
+        //});
+    //}
 });
 ;jQuery(document).ready(function($) {
     $('.live-search-list .itemlist-search').each(function(){
